@@ -1,5 +1,6 @@
 # 目录
-1. <a href='./doc/exception/TryCatchBlock.md'>Try-Catch-Finally代码块返回值不敬人意</a>
+1. <a href='./doc/exception/TryCatchBlock'>Try-Catch-Finally代码块返回值不敬人意</a>
+
 # 备注
 本仓库结合日常开发的实际例子，描述在开发过程中会遇到的问题。在阅读过程中，你可能需要补充如下3点知识：
 
