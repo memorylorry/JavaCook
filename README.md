@@ -1,8 +1,10 @@
-# JavaCook
-本仓库结合实际例子，描述在面试过程中会遇到的问题。在阅读过程中，你可能需要补充如下3点知识：
+# 目录
+1. <a href='./doc/exception/TryCatchBlock.md'>Try-Catch-Finally代码块返回值不敬人意</a>
+# 备注
+本仓库结合日常开发的实际例子，描述在开发过程中会遇到的问题。在阅读过程中，你可能需要补充如下3点知识：
 
 1. Java基础
-2. 字节码
+2. <a href="./resources/jvms8.pdf">JVM原理</a>
 3. 操作系统
 
 ## 致谢
