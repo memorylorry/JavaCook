@@ -5,12 +5,36 @@
 2. <a href="./resources/jvms8.pdf">JVM原理</a>
 3. 操作系统
 
+# 状态说明
+正在计划中的项目用
+<span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+plan</span>
+
+正在建设中的项目用
+<span style="color: white;background: #4dcc3e;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+ongoing</span>
+
+已经完结的项目用
+<span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+end</span>
+
 # 目录
-1. <a href='./doc/basic/exception/README'>Basic</a><span style="color:white;background:gray">+building</span>
-2. <a href='./doc/kafka/exception/README'>Kafka</a><span style="color:white;background:gray">+plan</span>
-3. <a href='./doc/spark/exception/README'>Spark</a><span style="color:white;background:gray">+plan</span>
-4. <a href='./doc/hadoop/exception/README'>Hadoop</a><span style="color:white;background:gray">+plan</span>
-5. <a href='./doc/mahout/exception/README'>Mahout</a><span style="color:white;background:gray">+plan</span>
+1. <a href='./doc/basic/'>Basic</a>
+<span style="color: white;background: #4dcc3e;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+ongoing</span>
+<span style="color: #c0c0c0;font-size: 10px;margin-left: 10px;">更新时间:2018-08-18</span>
+
+2. <a href='./doc/kafka/'>Kafka</a>
+<span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+plan</span>
+<span style="color: #c0c0c0;font-size: 10px;margin-left: 10px;">更新时间:2018-08-18</span>
+
+3. <a href='./doc/spark/'>Spark</a>
+<span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+plan</span>
+<span style="color: #c0c0c0;font-size: 10px;margin-left: 10px;">更新时间:2018-08-18</span>
+
+4. <a href='./doc/hadoop/'>Hadoop</a>
+<span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+plan</span>
+<span style="color: #c0c0c0;font-size: 10px;margin-left: 10px;">更新时间:2018-08-18</span>
+
+5. <a href='./doc/mahout/'>Mahout</a>
+<span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+plan</span>
+<span style="color: #c0c0c0;font-size: 10px;margin-left: 10px;">更新时间:2018-08-18</span>
 
 
 ## 致谢
