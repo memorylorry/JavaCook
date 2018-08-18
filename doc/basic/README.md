@@ -1,4 +1,8 @@
 <style>
+.nav-container{
+    position: absolute;
+    left: 30px;
+}
 .box {
   width: 15%;
   min-width: 150px;
@@ -68,7 +72,7 @@
     <div class="circle"></div>
   </div>
   <div class="box shadow">
-    <a href="/JavaCook/doc/safka">Kafka</a>
+    <a href="/JavaCook/doc/kafka">Kafka</a>
     <div class="circle"></div>
   </div>
   <div class="box shadow">
