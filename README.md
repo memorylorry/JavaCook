@@ -6,13 +6,13 @@
 3. 操作系统
 
 # 状态说明
-正在计划中的项目用
+1. 正在计划中的项目用
 <span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+plan</span>
 
-正在建设中的项目用
+2. 正在建设中的项目用
 <span style="color: white;background: #4dcc3e;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+ongoing</span>
 
-已经完结的项目用
+3. 已经完结的项目用
 <span style="color: white;background: #c0c0c0;border-radius: 3px;font-size: 10px;margin-left:10px;padding: 1px 5px;">+end</span>
 
 # 目录
