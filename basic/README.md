@@ -68,25 +68,33 @@
     <div class="circle"></div>
   </div>
   <div class="box shadow">
-    <a href="/JavaCook/doc/basic">Basic</a>
+    <a href="/JavaCook/basic">Basic</a>
     <div class="circle"></div>
   </div>
   <div class="box shadow">
-    <a href="/JavaCook/doc/kafka">Kafka</a>
+    <a href="/JavaCook/kafka">Kafka</a>
     <div class="circle"></div>
   </div>
   <div class="box shadow">
-    <a href="/JavaCook/doc/spark">Spark</a>
+    <a href="/JavaCook/spark">Spark</a>
     <div class="circle"></div>
   </div>
   <div class="box shadow">
-      <a href="/JavaCook/doc/hadoop">Hadoop</a>
+      <a href="/JavaCook/hadoop">Hadoop</a>
       <div class="circle"></div>
   </div>
   <div class="box shadow">
-      <a href="/JavaCook/doc/mahout">Mahout</a>
+      <a href="/JavaCook/mahout">Mahout</a>
       <div class="circle"></div>
   </div>
+  <div class="box shadow">
+        <a href="/JavaCook/spring">Spring</a>
+        <div class="circle"></div>
+  </div>
+  <div class="box shadow">
+        <a href="/JavaCook/concurrency">Concurrency</a>
+        <div class="circle"></div>
+  </div>  
   <div style="text-align:center;clear:both;">
   </div>
 </div>
