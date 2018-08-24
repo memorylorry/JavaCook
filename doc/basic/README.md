@@ -1,4 +1,4 @@
-<link href="/css/common.css" rel="stylesheet">
+<link href="../../css/common.css" rel="stylesheet">
 
 <div class="nav-container">
   <div class="box shadow">
