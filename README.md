@@ -41,7 +41,7 @@
 ## 目录
 1. <a href='./basic/'>Basic</a>
 <span class="state state-ongoing">+ongoing</span>
-<span class="">更新时间:2018-08-18</span>
+<span class="tip">更新时间:2018-08-18</span>
 
 2. <a href='./kafka/'>Kafka</a>
 <span class="state state-plan">+plan</span>
