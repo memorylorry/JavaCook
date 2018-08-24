@@ -1,3 +1,4 @@
+<link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap-grid.css" rel="stylesheet">
 <style>
 .state{
     color: white;
@@ -21,6 +22,7 @@
     margin-left: 10px;
 }
 </style>
+
 ## 序
 本仓库结合日常开发的实际例子，描述在开发过程中会遇到的问题。在阅读过程中，你可能需要补充如下3点知识：
 
