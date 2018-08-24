@@ -1,27 +1,4 @@
-<link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap-grid.css" rel="stylesheet">
-<style>
-.state{
-    color: white;
-    border-radius: 3px;
-    font-size: 10px;
-    margin-left:10px;
-    padding: 1px 5px;
-}
-.state-plan{
-    background: #c0c0c0;
-}
-.state-ongoing{
-    background: #4dcc3e;
-}
-.state-end{
-    background: #ff6666;
-}
-.tip{
-    color: #c0c0c0;
-    font-size: 10px;
-    margin-left: 10px;
-}
-</style>
+<link href="./css/common.css" rel="stylesheet">
 
 ## 序
 本仓库结合日常开发的实际例子，描述在开发过程中会遇到的问题。在阅读过程中，你可能需要补充如下3点知识：
