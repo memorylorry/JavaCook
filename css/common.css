@@ -24,6 +24,14 @@
 }
 
 /**
+* 段落的样式
+*/
+p.paragraph{
+    text-indent:2em;
+    margin: 5px 0px;
+}
+
+/**
 * 菜单栏的样式
 */
 .nav-container{
