@@ -1,5 +1,7 @@
 ## Kafka Producer实例
-1. 导入Kafka官方Documentation的第2章，导入Producer的pom依赖，参考javadoc的提示，书写如下代码
+
+1. 参考Kafka官方Documentation的第2章，导入Producer的pom依赖，参考javadoc的提示，书写如下代码
+
 ```
 package com.github.memorylorry;
 
