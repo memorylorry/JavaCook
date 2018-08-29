@@ -23,7 +23,7 @@
 <span class="tip">更新时间:2018-08-18</span>
 
 2. <a href='./doc/kafka/'>Kafka</a>
-<span class="state state-plan">+plan</span>
+<span class="state state-ongoing">+ongoing</span>
 <span class="tip">更新时间:2018-08-18</span>
 
 3. <a href='./doc/spark/'>Spark</a>
