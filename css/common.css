@@ -34,65 +34,83 @@ p.paragraph{
 /**
 * 菜单栏的样式
 */
-.nav-container{
-    position: absolute;
-    left: 30px;
-}
-.box {
-    width: 15%;
-    min-width: 150px;
-    display: block;
-    height: 50px;
-    position: relative;
-    border-radius: 5px;
-    background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
-    margin-bottom: 40px;
-    padding: 15px 25px 0 40px;
-    color: darkslategray;
-    box-shadow: 1px 2px 1px -1px #777;
-    transition: background 200ms ease-in-out;
-    text-align:right;
-}
-
-.box a{color:#fff;text-decoration:none;}
-
-.shadow {
-    position: relative;
-}
-.shadow:before {
-    z-index: -1;
-    position: absolute;
-    content: "";
-    bottom: 13px;
-    right: 7px;
-    width: 75%;
+.ml-menu-container {
+    position: fixed;
     top: 0;
-    box-shadow: 0 15px 10px #777;
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
-    transition: all 150ms ease-in-out;
+    width: 100%;
+    background: #2fa4e7;
+    box-shadow: 0 0 20px #ccc;
 }
 
-.box:hover {
-    background: linear-gradient(to right, #abbd73 0%, #abbd73 100%);
+.ml-menu-container ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-.shadow:hover::before {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    bottom: 20px;
-    z-index: -10;
-}
-
-.circle {
-    position: absolute;
-    top: 14px;
-    left: 15px;
-    border-radius: 50%;
-    box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5), inset 0 0 0 25px white;
-    width: 20px;
-    height: 20px;
+.ml-menu-container .nav>li {
     display: inline-block;
-    text-align:right;
-    padding:0 20px 0 0;
+    vertical-align: top;
+}
+
+.ml-menu-container .nav>li>a>.fa {
+    vertical-align: text-top;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.ml-menu-container .nav>li>a>.fa.menu-logo {
+    vertical-align: baseline;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.ml-menu-container ul a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.ml-menu-container>ul>li>a {
+    padding: 0px 15px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.ml-menu-container .drop-down-content>li>a {
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0px;
+}
+
+.ml-menu-container .drop-down-content {
+    float: left;
+    z-index: 1000;
+    position: absolute;
+    width: 150px;
+    padding: 0;
+    display: none;
+    border: 1px solid #eee;
+    border-top: 0px;
+}
+
+.ml-menu-container>ul>li:hover>a {
+    background: #178acc;
+}
+
+.ml-menu-container .drop-down-content li:hover a {
+    background-color: #2fa4e7;
+    color: white;
+}
+
+.ml-menu-container .nav .drop-down:hover .drop-down-content {
+    display: block;
+}
+/**
+ * 隐藏page-header
+ */
+.page-header{
+    display: none;
 }

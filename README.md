@@ -1,4 +1,50 @@
 <link href="./css/common.css" rel="stylesheet">
+<div class="ml-menu-container">
+    <ul class="nav">
+            <li>
+                <a href="#">Learn</a>
+            </li>
+            <li class="drop-down">
+                <a href="#">JAVA
+                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                </a>
+                <ul class="drop-down-content">
+                    <li>
+                        <a href="#">Basic</a>
+                    </li>
+                    <li>
+                        <a href="#">Concurrency</a>
+                    </li>
+                    <li>
+                        <a href="#">Spring</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="drop-down">
+                <a href="#">Big Data
+                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                </a>
+                <ul class="drop-down-content">
+                    <li>
+                        <a href="#">Hadoop</a>
+                    </li>
+                    <li>
+                        <a href="#">Kafka</a>
+                    </li>
+                    <li>
+                        <a href="#">Spark</a>
+                    </li>
+                    <li>
+                        <a href="#">Mahout</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="menu-logo fa fa-github" aria-hidden="true"></i>view</a>
+            </li>
+    </ul>
+</div>
 
 ## 序
 本仓库结合日常开发的实际例子，描述在开发过程中会遇到的问题。在阅读过程中，你可能需要补充如下3点知识：
