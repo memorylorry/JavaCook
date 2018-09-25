@@ -82,7 +82,7 @@ p.paragraph{
     color: #666;
     height: 30px;
     line-height: 30px;
-    padding: 5px 0px;
+    margin: 5px 0px;
 }
 
 .ml-menu-container .drop-down-content {
