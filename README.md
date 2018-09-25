@@ -54,7 +54,7 @@
             </ul>
         </li>
         <li>
-            <a href="https://github.com/memorylorry/JavaCook">
+            <a href="https://github.com/memorylorry/JavaCook" target="_blank">
                 <i class="menu-logo fa fa-github" aria-hidden="true"></i>view</a>
         </li>
     </ul>
