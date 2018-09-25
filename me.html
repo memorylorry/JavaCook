@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0px;
+        }
+
+        .ml-menu-container {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #2fa4e7;
+            box-shadow: 0 0 20px #ccc;
+        }
+
+        .ml-menu-container ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .ml-menu-container .nav>li {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .ml-menu-container .nav>li>a>.fa {
+            vertical-align: text-top;
+            padding-left: 8px;
+            font-size: 14px;
+        }
+
+        .ml-menu-container .nav>li>a>.fa.menu-logo {
+            vertical-align: baseline;
+            margin-right: 5px;
+            font-size: 18px;
+        }
+        .ml-menu-container ul a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+
+        .ml-menu-container>ul>li>a {
+            padding: 0px 15px;
+            height: 46px;
+            line-height: 46px;
+        }
+
+        .ml-menu-container .drop-down-content>li>a {
+            color: #666;
+            height: 30px;
+            line-height: 30px;
+            padding: 5px 0px;
+        }
+
+        .ml-menu-container .drop-down-content {
+            float: left;
+            z-index: 1000;
+            position: absolute;
+            width: 150px;
+            padding: 0;
+            display: none;
+            border: 1px solid #eee;
+            border-top: 0px;
+        }
+
+        .ml-menu-container>ul>li:hover>a {
+            background: #178acc;
+        }
+
+        .ml-menu-container .drop-down-content li:hover a {
+            background-color: #2fa4e7;
+            color: white;
+        }
+
+        .ml-menu-container .nav .drop-down:hover .drop-down-content {
+            display: block;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="ml-menu-container">
+        <ul class="nav">
+            <li>
+                <a href="#"><img src="./assets/logo.png" style="vertical-align: text-top;" /></a>
+            </li>
+            <li class="drop-down">
+                <a href="#">JAVA
+                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                </a>
+                <ul class="drop-down-content">
+                    <li>
+                        <a href="#">Basic</a>
+                    </li>
+                    <li>
+                        <a href="#">Concurrency</a>
+                    </li>
+                    <li>
+                        <a href="#">Spring</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="drop-down">
+                <a href="#">Big Data
+                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                </a>
+                <ul class="drop-down-content">
+                    <li>
+                        <a href="#">Hadoop</a>
+                    </li>
+                    <li>
+                        <a href="#">Kafka</a>
+                    </li>
+                    <li>
+                        <a href="#">Spark</a>
+                    </li>
+                    <li>
+                        <a href="#">Mahout</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="menu-logo fa fa-github" aria-hidden="true"></i>view</a>
+            </li>
+        </ul>
+    </div>
+    <div style="height:2000px;margin-top:50px;">12321</div>
+</body>
+
+</html>
