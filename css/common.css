@@ -37,9 +37,9 @@ p.paragraph{
 .ml-menu-container {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     background: #2fa4e7;
-    box-shadow: 0 0 20px #ccc;
 }
 
 .ml-menu-container ul {
@@ -94,6 +94,8 @@ p.paragraph{
     display: none;
     border: 1px solid #eee;
     border-top: 0px;
+    background: white;
+    box-shadow: 0 10px 10px #eee;
 }
 
 .ml-menu-container>ul>li:hover>a {

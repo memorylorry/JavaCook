@@ -1,48 +1,49 @@
 <link href="./css/common.css" rel="stylesheet">
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="ml-menu-container">
     <ul class="nav">
-            <li>
-                <a href="#">Learn</a>
-            </li>
-            <li class="drop-down">
-                <a href="#">JAVA
-                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                </a>
-                <ul class="drop-down-content">
-                    <li>
-                        <a href="#">Basic</a>
-                    </li>
-                    <li>
-                        <a href="#">Concurrency</a>
-                    </li>
-                    <li>
-                        <a href="#">Spring</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="drop-down">
-                <a href="#">Big Data
-                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                </a>
-                <ul class="drop-down-content">
-                    <li>
-                        <a href="#">Hadoop</a>
-                    </li>
-                    <li>
-                        <a href="#">Kafka</a>
-                    </li>
-                    <li>
-                        <a href="#">Spark</a>
-                    </li>
-                    <li>
-                        <a href="#">Mahout</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="menu-logo fa fa-github" aria-hidden="true"></i>view</a>
-            </li>
+        <li>
+            <a href="#">Learn</a>
+        </li>
+        <li class="drop-down">
+            <a href="#">JAVA
+                <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </a>
+            <ul class="drop-down-content">
+                <li>
+                    <a href="./doc/basic/">Basic</a>
+                </li>
+                <li>
+                    <a href="./doc/concurrency/">Concurrency</a>
+                </li>
+                <li>
+                    <a href="./doc/spring/">Spring</a>
+                </li>
+            </ul>
+        </li>
+        <li class="drop-down">
+            <a href="#">Big Data
+                <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            </a>
+            <ul class="drop-down-content">
+                <li>
+                    <a href="./doc/hadoop/">Hadoop</a>
+                </li>
+                <li>
+                    <a href="./doc/kafka/">Kafka</a>
+                </li>
+                <li>
+                    <a href="./doc/spark/">Spark</a>
+                </li>
+                <li>
+                    <a href="./doc/mahout/">Mahout</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://github.com/memorylorry/JavaCook">
+                <i class="menu-logo fa fa-github" aria-hidden="true"></i>view</a>
+        </li>
     </ul>
 </div>
 
